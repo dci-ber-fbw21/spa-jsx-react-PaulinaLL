@@ -22,11 +22,20 @@ function App() {
                     </div>
                   </div>
                   <div className="contact-data">
-                    <img src="https://img.icons8.com/carbon-copy/100/000000/phone.png" />
+                    <img
+                      src="https://img.icons8.com/carbon-copy/100/000000/phone.png"
+                      alt=""
+                    />
                     <p>{person.contact.phone}</p>
-                    <img src="https://img.icons8.com/dotty/80/000000/email.png" />
+                    <img
+                      src="https://img.icons8.com/dotty/80/000000/email.png"
+                      alt=""
+                    />
                     <p>{person.contact.email}</p>
-                    <img src="https://img.icons8.com/wired/64/000000/domain.png" />
+                    <img
+                      src="https://img.icons8.com/wired/64/000000/domain.png"
+                      alt=""
+                    />
                     <a
                       className="App-link"
                       href={person.contact.url}
@@ -36,7 +45,10 @@ function App() {
                       {person.contact.url}
                     </a>
                   </div>
-                  <p>member since: {person.memberSince}</p>
+                  <p>
+                    member since:{" "}
+                    {new Date(person.memberSince).toLocaleDateString("de")}
+                  </p>
                 </div>
               </li>
             );

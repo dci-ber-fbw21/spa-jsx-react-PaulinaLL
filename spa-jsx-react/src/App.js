@@ -17,6 +17,7 @@ function App() {
                       <h1>
                         {person.firstName} {person.lastName}
                       </h1>
+                      {person.isAdmin && <span>Admin</span>}
                       <p>{person.title}</p>
                     </div>
                   </div>

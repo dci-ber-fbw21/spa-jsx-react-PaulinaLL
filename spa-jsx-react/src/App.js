@@ -37,14 +37,16 @@ function App() {
                       src="https://img.icons8.com/wired/64/000000/domain.png"
                       alt=""
                     />
-                    <a
-                      className="App-link"
-                      href={person.contact.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {person.contact.url}
-                    </a>
+                    <p>
+                      <a
+                        className="App-link"
+                        href={person.contact.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {person.contact.url}
+                      </a>
+                    </p>
                   </div>
                   <p>
                     member since:{" "}

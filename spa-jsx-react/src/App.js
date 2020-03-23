@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <main className="App-main">
+        <h1>People list</h1>
         <ul>
           {data.map(person => {
             return (
@@ -14,9 +15,9 @@ function App() {
                   <div className="foto-name">
                     <img src={person.avatar} className="" alt="profil-pic" />
                     <div className="name-title">
-                      <h1>
+                      <h2>
                         {person.firstName} {person.lastName}
-                      </h1>
+                      </h2>
                       {person.isAdmin && <span>Admin</span>}
                       <p>{person.title}</p>
                     </div>

@@ -11,7 +11,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  border: 1px solid red;
 }
 
 .App-link {
@@ -19,16 +18,16 @@
 }
 .card {
   border: 1px solid rgb(170, 166, 158);
+  border-radius: 15px;
+  margin: 10px;
 }
 
 .foto-name {
   display: flex;
-  border: 1px solid blue;
 }
 .name-title {
   display: flex;
   flex-direction: column;
-  border: 1px solid pink;
 }
 img {
   border-radius: 15px;
@@ -42,4 +41,8 @@ img {
 
 .contact-data img {
   max-height: 20px;
+}
+
+ul {
+  list-style: none;
 }

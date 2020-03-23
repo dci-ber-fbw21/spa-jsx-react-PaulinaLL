@@ -2,14 +2,8 @@
   text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.App-main {
+  background-color: #5f646d;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17,8 +11,35 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  border: 1px solid red;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #a0ccd8;
+}
+.card {
+  border: 1px solid rgb(170, 166, 158);
+}
+
+.foto-name {
+  display: flex;
+  border: 1px solid blue;
+}
+.name-title {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid pink;
+}
+img {
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.contact-data {
+  display: flex;
+}
+
+.contact-data img {
+  max-height: 20px;
 }
